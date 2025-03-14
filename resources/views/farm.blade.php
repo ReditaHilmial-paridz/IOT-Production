@@ -158,6 +158,103 @@
         </div>
     </div>
 </div>
+<div class="container mt-4">
+        <!-- Header dengan Tombol Download sejajar -->
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h4 class="fw-bold">Invalid Card - RFID Presence</h4>
+            <button class="btn btn-success btn-sm">
+                <i class="bi bi-file-earmark-excel"></i> Unduh File Excel
+            </button>
+        </div>
+
+        <!-- Baris Atas (Dropdown Show Entries & Search sejajar) -->
+        <div class="d-flex justify-content-between align-items-center my-3">
+            <!-- Dropdown Show Entries -->
+            <div class="d-flex align-items-center">
+                <label class="me-2">Show</label>
+                <select class="form-select form-select-sm w-auto">
+                    <option selected>10</option>
+                    <option>25</option>
+                    <option>50</option>
+                </select>
+                <label class="ms-2">Entries</label>
+            </div>
+
+            <!-- Search Input sejajar -->
+            <div class="d-flex align-items-center">
+                <label class="fw-bold me-2">Search</label>
+                <div class="rounded-pill text-secondary px-3 py-2" style="width: 300px;">
+                    <input type="text" class="form-control bg-light rounded-pill px-3 py-2" placeholder="Masukkan kata kunci pencarian di sini" style="width: 300px;">
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabel -->
+        <table class="table table-bordered text-center">
+            <thead class="table-light">
+                <tr>
+                    <th>#</th>
+                    <th>Waktu</th>
+                    <th>Kelembapan</th>
+                    <th>Kondisi Pompa</th>
+                    <th>Terakhir Menyala</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>07:00 WIB Selasa, 12/03/2025</td>
+                    <td>80%</td>
+                    <td>Mati</td>
+                    <td>07:00 WIB Selasa, 12/03/2025</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>07:00 WIB Selasa, 12/03/2025</td>
+                    <td>80%</td>
+                    <td>Mati</td>
+                    <td>07:00 WIB Selasa, 12/03/2025</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>07:00 WIB Selasa, 12/03/2025</td>
+                    <td>80%</td>
+                    <td>Mati</td>
+                    <td>07:00 WIB Selasa, 12/03/2025</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>07:00 WIB Selasa, 12/03/2025</td>
+                    <td>80%</td>
+                    <td>Mati</td>
+                    <td>07:00 WIB Selasa, 12/03/2025</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>07:00 WIB Selasa, 12/03/2025</td>
+                    <td>80%</td>
+                    <td>Mati</td>
+                    <td>07:00 WIB Selasa, 12/03/2025</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>07:00 WIB Selasa, 12/03/2025</td>
+                    <td>80%</td>
+                    <td>Mati</td>
+                    <td>07:00 WIB Selasa, 12/03/2025</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Pagination -->
+        <div class="d-flex justify-content-between" style="margin-bottom: 5px;">
+            <span>Showing 1 to 6 of 6 entries</span>
+            <div>
+                <button class="btn btn-light btn-sm">Previous</button>
+                <button class="btn btn-light btn-sm">Next</button>
+            </div>
+        </div>
+    </div>
 <x-footer></x-footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
